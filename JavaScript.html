@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <p class="nombre" >Fernando</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/iconfont/material-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="icon" href="theMovieDB/asuka.ico">
+</head>
+<body id="inicio">
+    <nav>
+    	<input id="nav-toggle" type="checkbox">
+    	<div class="logo" >
+        <a href="index.html">
+          Pula Para <strong > Salir </strong >
+        </a>
+          </div>
+    	<ul class="links">
+    		<li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acerca-de">Acerca de</a></li>
+        <li><a href="#Lenguajes-card">Lenguajes</a></li>
+        <li><a href="#Mensajes">Mensajes</a></li>
+    		<li><a href="#contacto">Contacto</a></li>
+    	</ul>
+    	<label for="nav-toggle" class="icon-burger">
+    		<div class="line"></div>
+    		<div class="line"></div>
+    		<div class="line"></div>
+    	</label>
+    </nav>
+
+
+    <div class="container">
+    </div>
+
+        <section id="acerca-de" >
+          <br>
+            <h2 class="subtitulos">
+            JavaScript
+            </h2>
+
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident aliquid suscipit id perferendis ea earum mollitia maxime temporibus eos. Ea voluptate accusamus eius, nostrum harum nisi nemo cumque, doloremque voluptas culpa veniam dolorum blanditiis illo nulla sequi animi quas ipsam enim necessitatibus itaque odio ullam! Dignissimos labore sit esse illum?
+            </p>
+        </section>
+
+        <section>
+       <h2>
+         ¿Que JavaScript?
+       </h2>
+       <p>
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos delectus eius ipsum, corporis facere qui voluptatum voluptatibus! Aliquam aspernatur harum deserunt quaerat alias, fugit debitis incidunt impedit nemo ipsum sequi voluptatum saepe, earum iusto temporibus deleniti cupiditate magni tenetur. Vitae aperiam quis placeat quibusdam illum tempore, dolorem, iure sit, quidem similique est temporibus beatae obcaecati? Fugit, corrupti incidunt. Neque illum id molestias explicabo quae dolor maiores deleniti officia accusamus, nam, aspernatur porro repellat fugit labore maxime ut tempora nesciunt commodi nostrum rem omnis, eum! Et eum mollitia dicta debitis, quis ipsam nobis doloremque eius aut fuga voluptatum quibusdam voluptate commodi?
+       </p>
+        </section>
+
+        <section>
+            <h3>
+              Características de JavaScript
+            </h3>
+            <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae quasi adipisci quam eaque provident, deleniti recusandae officiis magni a ut illo. Unde reprehenderit assumenda praesentium, blanditiis temporibus consectetur commodi numquam atque iure id libero dolores iusto quaerat odit perspiciatis voluptatibus dicta sed neque harum alias minus, beatae quasi eligendi, voluptatem.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed d
+              o eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut al
+              iquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in volup
+              tate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in cul
+
+              pa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </section>
+
+        <h2 class="section__title">Lenguajes de programación</h2>
+        <section id="Lenguajes-card" class="section-card">
+          <br>
+
+  				<div class="card-container">
+  					<div class="card">
+  						<a href="Python.html" class="card__url">
+  							<img loading="lazy" src="Imagenes/python.png" alt="Python3 logo" title="Python" class="card__img"/>
+  						</a>
+  						<h3 class="card__title">Pyhton</h3>
+  						<p class="card__description">
+               neque accusamus nostrum earum cumque vero autem molestias incidunt. Ullam ut, sit, laudantium ratione aspernatur quas asperiores voluptatibus! Soluta accusantium ad, assumenda!
+              </p>
+  					</div>
+  					<!--Card 3-->
+  					<div class="card">
+  						<a href="Java.html" class="card__url">
+  							<img loading="lazy" src="Imagenes/java.jpg" alt="Java logo" title="Java" class="card__img"/>
+  						</a>
+  							<h3 class="card__title">Java</h3>
+  							<p class="card__description">
+                iandae voluptatem necessitatibus temporibus non harum a repellendus fugiat molestias sed neque possimus optio.
+                </p>
+  						</div>
+  					</div>
+        </section>
+        
+        <section id="Mensajes" class="section">
+          <div class="card-container">
+              <div class="row">
+                  <div class="col"></div>
+                  <div class="col">
+                      <div class="card mt-5">
+                          <div class="card-header colorFondo colorTexto">
+                              Agregar mensaje
+                          </div>
+                          <div class="card-body">
+                              <div class="input-group">
+                                  <div class="input-group-prepend">
+                                      <div class="input-group-text">
+                                          Mensaje:
+                                      </div>
+                                  </div>
+                                  <input type="text" name="mensaje" id="mensaje" 
+                                  class="form-control" placeholder="Escribe tu mensaje">
+                              </div>
+                          </div>
+                          <div class="card-footer text-center">
+                              <button class="btn btn-primary" onclick="agregarMensaje()">
+                                  <i class="material-icons align-middle">add_circle</i>
+                              </button>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col"></div>
+              </div>
+              <div class="row">
+                  <div class="col">
+                      <table class="table table-hover table-dark">
+                          <thead>
+                              <tr>
+                                  <th>Id</th>
+                                  <th>Tema</th>
+                                  <th>Mensaje</th>
+                                  <th>Usuario</th>
+                                  <th>Fecha</th>
+                                  <th>...</th>
+                              </tr>
+                          </thead>
+                          <tbody id="tablaTemas">
+                              <tr>
+                                  <td>1</td>
+                                  <td>Programacion</td>
+                                  <td>Hola</td>
+                                  <td>Admin</td>
+                                  <td>2020-09-28</td>
+                                  <td>
+                                      <button class="btn btn-primary" data-toggle="modal" data-target="#modificaTema">
+                                          <i class="material-icons align-middle">edit</i>
+                                      </button>
+                                      <button class="btn btn-danger" data-toggle="modal" data-target="#eliminaTema">
+                                          <i class="material-icons align-middle">cancel</i>
+                                      </button>
+                                  </td>
+                              </tr>
+                              
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="modal fade" id="modificaTema" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Editar Mensaje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                      <div class="input-group">
+                          <div class="input-group-prepend">
+                              <div class="input-group-text">
+                                  Mensaje:
+                              </div>
+                          </div>
+                          <input type="text" name="msgEditar" id="msgEditar" 
+                          class="form-control" placeholder="Nombre de tema">
+                      </div>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" onclick="guardaCambios()" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+      
+      <div class="modal fade" id="eliminaTema" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Eliminar Mensaje</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                  <p>¿esta seguro de elimanr el mensaje?</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+                <button type="button" onclick="confirmaEliminar()" class="btn btn-primary" data-dismiss="modal">Si</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+          <script src="js/jquery-3.3.1.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/mensajes.js"></script>
+      </section>
+
+
+              <footer id="contacto">
+                <h4>
+                    Company
+                  </h4>
+                  <p>Copyright 2020 - Web el Programador</p>
+                  <p>Blog_Programador@gmail.com</p>
+                  <p>SA de CV coma frutas y verduras</p>
+                  <p>Fernando Mora Rojas, municipio de Tlapujahua, </p>
+                  <p>Numeror de Telefono #4471120766 </p>
+                  <br>
+                  </footer>
+</body>
+</html>

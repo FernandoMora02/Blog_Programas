@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <h6 class="nombre"></h6>
+    <p class="nombre" >Fernando Mora Rojas</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login | Fazt</title>
+    <link rel="stylesheet" href="css/iconfont/material-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="login-box">
+        <img class="avatar" src="img/Efes.jpg" alt="logo de Fazt">
+        <h1>Login</h1>
+        <form>
+
+            <div>
+                <label for="Username">Username</label>
+                <input type="text" name="user" id="user" 
+                class="form-control" placeholder="Nombre de Usuario">
+               </div>
+
+            <div>
+                <label for="Username">Username</label>
+                <input type="password" name="pass" id="pass"
+                     class="form-control " placeholder="Contraseña">
+                    </div>
+            
+                    <div class="alert alert-danger mt-1" role="alert" id="msgLogin">
+                            
+            </div>
+
+           
+            <div class="card-footer">
+                <input button class="btn btn-danger" onclick="login();" value="Log In"></button>
+               </div>
+
+            <a href="#">¿Olvidaste tu contraseña?</a><br>
+            <a href="#">¿No tienes una cuenta?</a>
+
+        </form>
+
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
